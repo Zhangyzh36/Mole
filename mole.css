@@ -1,0 +1,152 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+div#title_field {
+	text-align: center;
+	font-size: 30px;
+	margin: 25px auto;
+}
+
+div#instruction_top_field {
+	text-align: center;
+
+}
+
+div#notification_field {
+	width: 380px;
+	height: 50px;
+	margin: 0px auto;
+}
+
+.start_stop {
+	display: inline-block;
+	text-align: center;
+	border-radius: 5px;
+	width: 180px;
+	margin: 5px 70px 5px 0px;
+	font-size: 14px;
+	border: 1px solid grey;
+	background-color: white;
+	transition: all 0.1s ease-out;
+}
+
+.start_stop:hover {
+	cursor: pointer;
+}
+
+.blue_start_stop {
+	display: inline-block;
+	text-align: center;
+	border-radius: 5px;
+	width: 180px;
+	margin: 5px 70px 5px 0px;
+	font-size: 14px;
+	border: 1px solid grey;
+	background-color: #66B3FF;
+	transition: all 0.1s ease-out;
+}
+
+.blue_start_stop:hover {
+	cursor: pointer;
+}
+
+div#time_field {
+	display: inline-block;
+	border-radius: 2px;
+	width: 40px;
+	font-size: 14px;
+	border: 1px solid grey;
+}
+
+div#game_state {
+	display: inline-block;
+	padding: 0 0 0 8px;
+	border-radius: 2px;
+	width: 172px;
+	margin: 5px 65px 5px 0px;
+	font-size: 14px;
+	border: 1px solid grey;
+}
+
+div#score_field {
+	display: inline-block;
+	border-radius: 2px;
+	width: 40px;
+	font-size: 14px;
+	border: 1px solid grey;
+}
+
+form#button_field {
+	margin: 50px auto 10px auto;
+	font-size:0;
+	border-top-width: 1.5px;
+	border-top-style: solid;
+	border-top-color: grey;
+	border-bottom-width: 1.5px; 
+	border-bottom-style: solid;
+	border-bottom-color: grey;
+
+		
+	width: 300px;
+	height: 180px;
+	padding: 30px 0px;
+}
+
+.decoration {
+	float: left;
+	box-shadow: 0px 0px 1px 1px grey;
+	border-radius: 11px;
+	border: 1px solid grey;
+	margin: 4px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+
+.decoration_changed {
+	float: left;
+	box-shadow: 0px 0px 2px 2px #66B3FF;
+	border-radius: 11px;
+	border: 6px solid #66B3FF;
+	margin: 4px;
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+}
+
+.radio_button {
+	opacity: 0;
+	margin: 0;
+	width: 20px;
+	height: 20px;
+
+}
+
+.radio_button_changed {
+	opacity: 0;
+	margin: 0;
+	width: 10px;
+	height: 10px;
+}
+
+div#instruction_bottom_field {
+	width: 700px;
+	margin: 0 auto;
+}
+
+div#guapi {
+	font-weight: bold;
+	margin: 20px auto;
+}
+
+div#one{
+	display: inline-block;
+	margin: 5px 0 5px 20px;
+}
+
+div#two {
+	display: inline-block;
+	margin: 0 0 0 20px;
+}
